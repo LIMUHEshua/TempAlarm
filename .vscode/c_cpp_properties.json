@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "name": "STM32F103",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Core/Inc",
+        "${workspaceFolder}/Drivers/CMSIS/Include",
+        "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+        "${workspaceFolder}/Drivers/STM32F1xx_HAL_Driver/Inc",
+        "${workspaceFolder}/Drivers/FreeRTOS/include",
+        "${workspaceFolder}/Drivers/FreeRTOS/portable/GCC/ARM_CM3",
+        "${workspaceFolder}/Drivers/FreeRTOS",
+        "${workspaceFolder}/Drivers/DHT11",
+        "${workspaceFolder}/Drivers/BH1750",
+        "${workspaceFolder}/Drivers/ST7735S"
+      ],
+      "defines": [
+        "STM32F103xB",
+        "USE_HAL_DRIVER",
+        "__GNUC__"
+      ],
+      "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "gcc-arm",
+      "configurationProvider": "ms-vscode.cmake-tools"
+    }
+  ],
+  "version": 4
+}

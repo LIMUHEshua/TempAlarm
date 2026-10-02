@@ -1,0 +1,33 @@
+# Build outputs
+build/
+**/build/
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.o
+*.obj
+*.d
+*.su
+*.a
+*.so
+*.lib
+*.dll
+*.exe
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# Project-local folders not intended for GitHub
+大纲/
+时间线/
+Drivers/LVGL/
+
+# Ignore IDE local settings except the required shared VS Code config
+.vscode/settings.json
+.vscode/.history/

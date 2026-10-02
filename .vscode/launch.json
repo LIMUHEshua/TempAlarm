@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cortex-Debug: TempAlarm",
+      "type": "cortex-debug",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "executable": "${workspaceFolder}/build/Debug/TempAlarm.elf",
+      "servertype": "stlink",
+      "device": "STM32F103C8",
+      "runToMain": true,
+      "preLaunchTask": "CMake Build (Debug)"
+    }
+  ]
+}
